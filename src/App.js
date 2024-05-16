@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import SearchNpmPackages from './Components/SearchNpmPackages';
 import ViewFavoritePackages from './Components/ViewFavoritePackages';
 import EditFavoritePackage from './Components/EditFavoritePackage';
